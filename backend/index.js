@@ -36,7 +36,7 @@ app.post("/books", async (req, res) => {
 
 //Route to get single book by id
 
-app.get("/books:id", async (req, res) => {
+app.get("/books/:id", async (req, res) => {
   try {
     const { id } = req.params;
 
