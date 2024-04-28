@@ -1,6 +1,6 @@
-import express from express
-
-const router = express.router()
+import express from 'express'
+import { Book } from '../models/bookModel.js'
+const router = express.Router()
 
 
 // Route for Save a new Book
